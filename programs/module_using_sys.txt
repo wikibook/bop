@@ -7,6 +7,6 @@ arguments
 
 
 The PYTHONPATH is ['/tmp/py',
-# many entries here, not shown here
+# 이곳에 여러 개의 항목이 표시되며, 나머지 항목은 생략합니다
 '/Library/Python/2.7/site-packages',
 '/usr/local/lib/python2.7/site-packages']

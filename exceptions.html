@@ -70,10 +70,6 @@
     <div class="book-summary">
         
             
-<div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search" />
-</div>
-
             
                 <nav role="navigation">
                 
@@ -454,9 +450,6 @@
                     <div class="page-wrapper" tabindex="-1" role="main">
                         <div class="page-inner">
                             
-<div id="book-search-results">
-    <div class="search-noresults">
-    
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="&#xC608;&#xC678;">&#xC608;&#xC678;</h1>
@@ -464,11 +457,11 @@
 <p>&#xC774;&#xC640; &#xBE44;&#xC2B7;&#xD558;&#xAC8C; &#xB9CC;&#xC57D; &#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC5D0; &#xC720;&#xD6A8;&#xD558;&#xC9C0; &#xC54A;&#xC740; &#xBB38;&#xC7A5;&#xC774; &#xC788;&#xB2E4;&#xBA74; &#xC5B4;&#xB5BB;&#xAC8C; &#xB420;&#xAE4C;&#xC694;? &#xC774;&#xB294; &#xD30C;&#xC774;&#xC36C;&#xC5D0; &#xC758;&#xD574; &#xCC98;&#xB9AC;&#xB418;&#xB294;&#xB370;, &#xD30C;&#xC774;&#xC36C;&#xC774; &#xC190;&#xC744; <strong>&#xB4E4;&#xC5B4;(raise)</strong> <strong>&#xC624;&#xB958;(error)</strong>&#xAC00; &#xC788;&#xB2E4;&#xACE0; &#xB9D0;&#xD574;&#xC90D;&#xB2C8;&#xB2E4;.</p>
 <h2 id="&#xC624;&#xB958;">&#xC624;&#xB958;</h2>
 <p>&#xAC04;&#xB2E8;&#xD55C; <code>print</code> &#xD568;&#xC218; &#xD638;&#xCD9C;&#xC744; &#xC0DD;&#xAC01;&#xD574; &#xBD05;&#xC2DC;&#xB2E4;. <code>print</code>&#xB97C; &#xC798;&#xBABB; &#xC368;&#xC11C; <code>Print</code>&#xB77C;&#xACE0; &#xD558;&#xBA74; &#xC5B4;&#xB5BB;&#xAC8C; &#xB420;&#xAE4C;&#xC694;? &#xB300;&#xC18C;&#xBB38;&#xC790;&#xB97C; &#xB208;&#xC5EC;&#xACA8;&#xBCF4;&#xC138;&#xC694;. &#xC774; &#xACBD;&#xC6B0; &#xD30C;&#xC774;&#xC36C;&#xC740; &#xBB38;&#xBC95; &#xC624;&#xB958;(syntax error)&#xB97C; <em>&#xBC1C;&#xC0DD;&#xC2DC;&#xD0B5;&#xB2C8;&#xB2E4;(raise)</em>.</p>
-<pre><code class="lang-python"><span class="hljs-meta">&gt;&gt;&gt; </span>Print(<span class="hljs-string">&quot;Hello World&quot;</span>)
+<pre><code class="lang-python"><span class="hljs-prompt">&gt;&gt;&gt; </span>Print(<span class="hljs-string">&quot;Hello World&quot;</span>)
 Traceback (most recent call last):
   File <span class="hljs-string">&quot;&lt;stdin&gt;&quot;</span>, line <span class="hljs-number">1</span>, <span class="hljs-keyword">in</span> &lt;module&gt;
 NameError: name <span class="hljs-string">&apos;Print&apos;</span> <span class="hljs-keyword">is</span> <span class="hljs-keyword">not</span> defined
-<span class="hljs-meta">&gt;&gt;&gt; </span>print(<span class="hljs-string">&quot;Hello World&quot;</span>)
+<span class="hljs-prompt">&gt;&gt;&gt; </span>print(<span class="hljs-string">&quot;Hello World&quot;</span>)
 Hello World
 </code></pre>
 <p>&#xBCF4;&#xB2E4;&#xC2DC;&#xD53C; <code>NameErorr</code>&#xAC00; &#xBC1C;&#xC0DD;&#xD558;&#xACE0; &#xC774; &#xC624;&#xB958;&#xAC00; &#xBC1C;&#xACAC;&#xB41C; &#xC704;&#xCE58;&#xB3C4; &#xCD9C;&#xB825;&#xB429;&#xB2C8;&#xB2E4;. &#xC774;&#xAC83;&#xC774; &#xBC14;&#xB85C; &#xC774; &#xC624;&#xB958;&#xC5D0; &#xB300;&#xD574; <strong>&#xC624;&#xB958; &#xCC98;&#xB9AC;&#xAE30;(error handler)</strong>&#xAC00; &#xD558;&#xB294; &#xC77C;&#xC785;&#xB2C8;&#xB2E4;.</p>
@@ -615,22 +608,6 @@ Press ctrl+c now
                                 
                                 </section>
                             
-    </div>
-    <div class="search-results">
-        <div class="has-results">
-            
-            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
-            <ul class="search-results-list"></ul>
-            
-        </div>
-        <div class="no-results">
-            
-            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
-            
-        </div>
-    </div>
-</div>
-
                         </div>
                     </div>
                 
@@ -654,7 +631,7 @@ Press ctrl+c now
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"예외","level":"1.16","depth":1,"next":{"title":"표준 라이브러리","level":"1.17","depth":1,"path":"stdlib.md","ref":"stdlib.md","articles":[]},"previous":{"title":"입출력","level":"1.15","depth":1,"path":"io.md","ref":"io.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"authorUrl":"https://www.swaroopch.com/about/","buyBookUrl":"https://www.swaroopch.com/buybook/","contactUrl":"https://www.swaroopch.com/contact/","downloadUrl":"https://github.com/swaroopch/byte-of-python/releases/latest","officialUrl":"https://python.swaroopch.com/","pythonVersion":"3.6.0","sourceUrl":"https://github.com/swaroopch/byte-of-python","vimBookUrl":"https://vim.swaroopch.com/"},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"exceptions.md","mtime":"2020-06-14T13:52:43.983Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-18T13:25:01.240Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"예외","level":"1.16","depth":1,"next":{"title":"표준 라이브러리","level":"1.17","depth":1,"path":"stdlib.md","ref":"stdlib.md","articles":[]},"previous":{"title":"입출력","level":"1.15","depth":1,"path":"io.md","ref":"io.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"authorUrl":"https://www.swaroopch.com/about/","buyBookUrl":"https://www.swaroopch.com/buybook/","contactUrl":"https://www.swaroopch.com/contact/","downloadUrl":"https://github.com/swaroopch/byte-of-python/releases/latest","officialUrl":"https://python.swaroopch.com/","pythonVersion":"3.6.0","sourceUrl":"https://github.com/swaroopch/byte-of-python","vimBookUrl":"https://vim.swaroopch.com/"},"plugins":[],"pluginsConfig":{"highlight":{},"search":{"maxIndexSize":1000000},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"exceptions.md","mtime":"2020-06-14T13:52:43.983Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-29T13:40:20.754Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -664,7 +641,7 @@ Press ctrl+c now
     <script src="gitbook/theme.js"></script>
     
         
-        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        <script src="gitbook/gitbook-plugin-search/lunr.min.js"></script>
         
     
         
@@ -684,7 +661,7 @@ Press ctrl+c now
         
     
         
-        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        <script src="gitbook/gitbook-plugin-fontsettings/buttons.js"></script>
         
     
 
